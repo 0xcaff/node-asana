@@ -6,7 +6,7 @@ portfoliomemberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfoliomemberships.getPortfolioMembership(portfolioMembershipGid, {param: "value", param: "value", opt_pretty: true})
+        client.Portfoliomemberships.getPortfolioMembership(portfolioMembershipGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ portfoliomemberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfoliomemberships.getPortfolioMemberships({param: "value", param: "value", opt_pretty: true})
+        client.Portfoliomemberships.getPortfolioMemberships({param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ portfoliomemberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfoliomemberships.getPortfolioMembershipsForPortfolio(portfolioGid, {param: "value", param: "value", opt_pretty: true})
+        client.Portfoliomemberships.getPortfolioMembershipsForPortfolio(portfolioGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });

@@ -6,7 +6,7 @@ projectstatuses:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.projectstatuses.createProjectStatusForProject(projectGid, {field: "value", field: "value", pretty: true})
+        client.Projectstatuses.createProjectStatusForProject(projectGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ projectstatuses:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.projectstatuses.deleteProjectStatus(projectStatusGid)
+        client.Projectstatuses.deleteProjectStatus(projectStatusGid)
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ projectstatuses:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.projectstatuses.getProjectStatus(projectStatusGid, {param: "value", param: "value", opt_pretty: true})
+        client.Projectstatuses.getProjectStatus(projectStatusGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -39,7 +39,7 @@ projectstatuses:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.projectstatuses.getProjectStatusesForProject(projectGid, {param: "value", param: "value", opt_pretty: true})
+        client.Projectstatuses.getProjectStatusesForProject(projectGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });

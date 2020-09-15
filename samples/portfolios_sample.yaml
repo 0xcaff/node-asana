@@ -6,7 +6,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.addCustomFieldSettingForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
+        client.Portfolios.addCustomFieldSettingForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.addItemForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
+        client.Portfolios.addItemForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.addMembersForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
+        client.Portfolios.addMembersForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -39,7 +39,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.createPortfolio({field: "value", field: "value", pretty: true})
+        client.Portfolios.createPortfolio({field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -50,7 +50,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.deletePortfolio(portfolioGid)
+        client.Portfolios.deletePortfolio(portfolioGid)
             .then((result) => {
                 console.log(result);
             });
@@ -61,7 +61,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.getItemsForPortfolio(portfolioGid, {param: "value", param: "value", opt_pretty: true})
+        client.Portfolios.getItemsForPortfolio(portfolioGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -72,7 +72,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.getPortfolio(portfolioGid, {param: "value", param: "value", opt_pretty: true})
+        client.Portfolios.getPortfolio(portfolioGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -83,7 +83,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.getPortfolios({param: "value", param: "value", opt_pretty: true})
+        client.Portfolios.getPortfolios({param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -94,7 +94,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.removeCustomFieldSettingForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
+        client.Portfolios.removeCustomFieldSettingForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -105,7 +105,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.removeItemForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
+        client.Portfolios.removeItemForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -116,7 +116,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.removeMembersForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
+        client.Portfolios.removeMembersForPortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -127,7 +127,7 @@ portfolios:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.portfolios.updatePortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
+        client.Portfolios.updatePortfolio(portfolioGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });

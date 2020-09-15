@@ -6,7 +6,7 @@ stories:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.stories.createStoryForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Stories.createStoryForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ stories:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.stories.deleteStory(storyGid)
+        client.Stories.deleteStory(storyGid)
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ stories:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.stories.getStoriesForTask(taskGid, {param: "value", param: "value", opt_pretty: true})
+        client.Stories.getStoriesForTask(taskGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -39,7 +39,7 @@ stories:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.stories.getStory(storyGid, {param: "value", param: "value", opt_pretty: true})
+        client.Stories.getStory(storyGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -50,7 +50,7 @@ stories:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.stories.updateStory(storyGid, {field: "value", field: "value", pretty: true})
+        client.Stories.updateStory(storyGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });

@@ -6,7 +6,7 @@ sections:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.sections.addTaskForSection(sectionGid, {field: "value", field: "value", pretty: true})
+        client.Sections.addTaskForSection(sectionGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ sections:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.sections.createSectionForProject(projectGid, {field: "value", field: "value", pretty: true})
+        client.Sections.createSectionForProject(projectGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ sections:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.sections.deleteSection(sectionGid)
+        client.Sections.deleteSection(sectionGid)
             .then((result) => {
                 console.log(result);
             });
@@ -39,7 +39,7 @@ sections:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.sections.getSection(sectionGid, {param: "value", param: "value", opt_pretty: true})
+        client.Sections.getSection(sectionGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -50,7 +50,7 @@ sections:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.sections.getSectionsForProject(projectGid, {param: "value", param: "value", opt_pretty: true})
+        client.Sections.getSectionsForProject(projectGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -61,7 +61,7 @@ sections:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.sections.insertSectionForProject(projectGid, {field: "value", field: "value", pretty: true})
+        client.Sections.insertSectionForProject(projectGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -72,7 +72,7 @@ sections:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.sections.updateSection(sectionGid, {field: "value", field: "value", pretty: true})
+        client.Sections.updateSection(sectionGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });

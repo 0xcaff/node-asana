@@ -6,7 +6,7 @@ teammemberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.teammemberships.getTeamMembership(teamMembershipGid, {param: "value", param: "value", opt_pretty: true})
+        client.Teammemberships.getTeamMembership(teamMembershipGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ teammemberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.teammemberships.getTeamMemberships({param: "value", param: "value", opt_pretty: true})
+        client.Teammemberships.getTeamMemberships({param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ teammemberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.teammemberships.getTeamMembershipsForTeam(teamGid, {param: "value", param: "value", opt_pretty: true})
+        client.Teammemberships.getTeamMembershipsForTeam(teamGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -39,7 +39,7 @@ teammemberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.teammemberships.getTeamMembershipsForUser(userGid, {param: "value", param: "value", opt_pretty: true})
+        client.Teammemberships.getTeamMembershipsForUser(userGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });

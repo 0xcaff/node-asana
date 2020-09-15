@@ -6,7 +6,7 @@ customfieldsettings:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.customfieldsettings.getCustomFieldSettingsForPortfolio(portfolioGid, {param: "value", param: "value", opt_pretty: true})
+        client.Customfieldsettings.getCustomFieldSettingsForPortfolio(portfolioGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ customfieldsettings:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.customfieldsettings.getCustomFieldSettingsForProject(projectGid, {param: "value", param: "value", opt_pretty: true})
+        client.Customfieldsettings.getCustomFieldSettingsForProject(projectGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });

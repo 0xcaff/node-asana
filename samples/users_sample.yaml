@@ -6,7 +6,7 @@ users:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.users.getFavoritesForUser(userGid, {param: "value", param: "value", opt_pretty: true})
+        client.Users.getFavoritesForUser(userGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ users:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.users.getUser(userGid, {param: "value", param: "value", opt_pretty: true})
+        client.Users.getUser(userGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ users:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.users.getUsers({param: "value", param: "value", opt_pretty: true})
+        client.Users.getUsers({param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -39,7 +39,7 @@ users:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.users.getUsersForTeam(teamGid, {param: "value", param: "value", opt_pretty: true})
+        client.Users.getUsersForTeam(teamGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -50,7 +50,7 @@ users:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.users.getUsersForWorkspace(workspaceGid, {param: "value", param: "value", opt_pretty: true})
+        client.Users.getUsersForWorkspace(workspaceGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });

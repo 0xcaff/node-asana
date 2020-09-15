@@ -6,7 +6,7 @@ workspacememberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.workspacememberships.getWorkspaceMembership(workspaceMembershipGid, {param: "value", param: "value", opt_pretty: true})
+        client.Workspacememberships.getWorkspaceMembership(workspaceMembershipGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ workspacememberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.workspacememberships.getWorkspaceMembershipsForUser(userGid, {param: "value", param: "value", opt_pretty: true})
+        client.Workspacememberships.getWorkspaceMembershipsForUser(userGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ workspacememberships:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.workspacememberships.getWorkspaceMembershipsForWorkspace(workspaceGid, {param: "value", param: "value", opt_pretty: true})
+        client.Workspacememberships.getWorkspaceMembershipsForWorkspace(workspaceGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });

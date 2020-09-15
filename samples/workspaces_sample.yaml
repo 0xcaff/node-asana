@@ -6,7 +6,7 @@ workspaces:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.workspaces.addUserForWorkspace(workspaceGid, {field: "value", field: "value", pretty: true})
+        client.Workspaces.addUserForWorkspace(workspaceGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ workspaces:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.workspaces.getWorkspace(workspaceGid, {param: "value", param: "value", opt_pretty: true})
+        client.Workspaces.getWorkspace(workspaceGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ workspaces:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.workspaces.getWorkspaces({param: "value", param: "value", opt_pretty: true})
+        client.Workspaces.getWorkspaces({param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -39,7 +39,7 @@ workspaces:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.workspaces.removeUserForWorkspace(workspaceGid, {field: "value", field: "value", pretty: true})
+        client.Workspaces.removeUserForWorkspace(workspaceGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -50,7 +50,7 @@ workspaces:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.workspaces.updateWorkspace(workspaceGid, {field: "value", field: "value", pretty: true})
+        client.Workspaces.updateWorkspace(workspaceGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });

@@ -6,7 +6,7 @@ organizationexports:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.organizationexports.createOrganizationExport({field: "value", field: "value", pretty: true})
+        client.Organizationexports.createOrganizationExport({field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ organizationexports:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.organizationexports.getOrganizationExport(organizationExportGid, {param: "value", param: "value", opt_pretty: true})
+        client.Organizationexports.getOrganizationExport(organizationExportGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });

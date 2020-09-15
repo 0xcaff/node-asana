@@ -6,7 +6,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.addDependenciesForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.addDependenciesForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -17,7 +17,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.addDependentsForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.addDependentsForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -28,7 +28,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.addFollowersForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.addFollowersForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -39,7 +39,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.addProjectForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.addProjectForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -50,7 +50,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.addTagForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.addTagForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -61,7 +61,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.createSubtaskForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.createSubtaskForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -72,7 +72,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.createTask({field: "value", field: "value", pretty: true})
+        client.Tasks.createTask({field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -83,7 +83,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.deleteTask(taskGid)
+        client.Tasks.deleteTask(taskGid)
             .then((result) => {
                 console.log(result);
             });
@@ -94,7 +94,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.duplicateTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.duplicateTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -105,7 +105,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.getDependenciesForTask(taskGid, {param: "value", param: "value", opt_pretty: true})
+        client.Tasks.getDependenciesForTask(taskGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -116,7 +116,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.getDependentsForTask(taskGid, {param: "value", param: "value", opt_pretty: true})
+        client.Tasks.getDependentsForTask(taskGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -127,7 +127,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.getSubtasksForTask(taskGid, {param: "value", param: "value", opt_pretty: true})
+        client.Tasks.getSubtasksForTask(taskGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -138,7 +138,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.getTask(taskGid, {param: "value", param: "value", opt_pretty: true})
+        client.Tasks.getTask(taskGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -149,7 +149,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.getTasks({param: "value", param: "value", opt_pretty: true})
+        client.Tasks.getTasks({param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -160,7 +160,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.getTasksForProject(projectGid, {param: "value", param: "value", opt_pretty: true})
+        client.Tasks.getTasksForProject(projectGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -171,7 +171,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.getTasksForSection(sectionGid, {param: "value", param: "value", opt_pretty: true})
+        client.Tasks.getTasksForSection(sectionGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -182,7 +182,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.getTasksForTag(tagGid, {param: "value", param: "value", opt_pretty: true})
+        client.Tasks.getTasksForTag(tagGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -193,7 +193,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.getTasksForUserTaskList(userTaskListGid, {param: "value", param: "value", opt_pretty: true})
+        client.Tasks.getTasksForUserTaskList(userTaskListGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -204,7 +204,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.removeDependenciesForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.removeDependenciesForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -215,7 +215,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.removeDependentsForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.removeDependentsForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -226,7 +226,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.removeFollowerForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.removeFollowerForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -237,7 +237,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.removeProjectForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.removeProjectForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -248,7 +248,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.removeTagForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.removeTagForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -259,7 +259,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.searchTasksForWorkspace(workspaceGid, {param: "value", param: "value", opt_pretty: true})
+        client.Tasks.searchTasksForWorkspace(workspaceGid, {param: "value", param: "value", opt_pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -270,7 +270,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.setParentForTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.setParentForTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
@@ -281,7 +281,7 @@ tasks:
         const client = asana.Client.create().useAccessToken('PERSONAL_ACCESS_TOKEN');
 
 
-        client.tasks.updateTask(taskGid, {field: "value", field: "value", pretty: true})
+        client.Tasks.updateTask(taskGid, {field: "value", field: "value", pretty: true})
             .then((result) => {
                 console.log(result);
             });
